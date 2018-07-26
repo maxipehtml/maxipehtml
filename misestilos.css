@@ -1,0 +1,89 @@
+/* En la línea de abajo se llama a las fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lato|Source+Sans+Pro');
+
+/* Selector para etiqueta */
+
+/* Resetear los espacios que agrega el navegador a la etiquetas */
+
+body, h1, h2, h3, h4, h5, h6, ul, li {margin: 0; padding: 0;}
+
+body {  background-color: #14CC83;
+        font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {font-size: 48px;
+  color: #C919FF;
+padding: 10px;
+margin-left: 10px;
+text-align: left;}
+h3 {  font-size: 24px;
+      color: #C919FF;
+    }
+    h5 {font-size: 22px;
+      margin-left: 10px;
+      color: #C919FF;
+      text-align: left;
+    }
+    h2 {
+text-align: left;
+margin-left: 10px;
+        font-size: 12px;
+        font-style: italic;
+      }
+
+    h6 {font-size: 18px;
+      text-align: left;
+    color: #14CC83;
+    margin-left: 22px;
+    }
+
+h2, h3, h4, h5, {font-family: 'Lato', sans-serif;}
+
+ul li a{
+  color: #14CC83;
+}
+ul li a::before{
+  color: white;
+}
+hr {
+border: 1px inset #14CC83;
+}
+
+/* Selectores personalizados */
+#contenedor { margin: 0 auto 0 auto;
+              width: 904.66px;
+
+              background-color: #14CC83;
+}
+
+.men1 {list-style: none;
+  text-align: center;
+background: black;
+color: #14CC83;
+}
+.men2 {
+  font-size: 25px;
+ display: inline-block;
+        padding: 5px;
+        border-right: 2px solid #14CC83;}
+
+.cabeza { height: 335px;
+          text-align: center;
+          background-color: black;
+}
+
+.menu { border-bottom: 2px solid #14CC83;
+        border-top: 2px solid #14CC83;}
+
+.info {
+  padding: 3px;
+
+}
+.cuerpo {padding: 0px;
+  color: #14CC83;
+background: black;}
+
+.pie {  color: white;
+        background-color: black;
+        height: 170px;
+        padding: 20px;
+        }
